@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".message.MessageDetailActivity">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <com.stfalcon.chatkit.messages.MessagesList
+        android:id="@+id/msList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        app:outcomingDefaultBubbleColor="@color/colorMustard"
+        app:outcomingDefaultBubblePressedColor="@color/colorMustard"
+        app:outcomingDefaultBubbleSelectedColor="@color/colorMustard" />
+
+    <com.stfalcon.chatkit.messages.MessageInput
+        android:id="@+id/msInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:inputBackground="@drawable/bg_message_input"
+        app:inputButtonBackground="@drawable/bg_send"
+        app:inputButtonHeight="45dp"
+        app:inputButtonIcon="@drawable/ic_navigator"
+        app:inputButtonWidth="45dp"
+        app:inputHint="@string/type_message"
+        app:inputTextColor="@color/black" />
+
+</LinearLayout>

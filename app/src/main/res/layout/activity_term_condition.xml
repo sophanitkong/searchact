@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".termcondition.TermConditionActivity">
+
+    <include layout="@layout/layout_toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:lineSpacingExtra="5dp"
+            android:text="1. Terms
+By accessing the website at searchact.com, you are agreeing to be bound by these terms of service, all applicable laws and regulations, and agree that you are responsible for compliance with any applicable local laws. If you do not agree
+with any of these terms, you are prohibited from using or accessing this site. The materials contained in this website are protected by applicable copyright and trademark law.
+
+2. User Account
+In order for you to submit any business listing or using other features, you have to create an account and use real information such as company information or yourself. You are the one who will be responsible for any confidential data such as account password and others. Your account must be used for your personal and non-commercial
+use only. You agree to report us immediately if of any unauthorized activity may arise with your account in addition we reserve the right to close or suspend your account without notice or reason.
+
+3. Intellectual Property Rights
+Other than the content you own, under these Terms, SearchAct and/or its licensors own all the intellectual property rights and materials contained in this Website.
+
+4. Your Content
+In these Website Standard Terms and
+Conditions, “Your Content” shall mean any
+audio, video text, images, location data,
+ratings, reviews, and all other forms of data
+or communication or other material you
+choose to display on this Website. By
+displaying Your Content, you grant
+SearchAct a non-exclusive, worldwide
+irrevocable, sub licensable license to use,
+reproduce, adapt, publish, translate and
+distribute it in any and all media.
+
+Your Content must be your own and must
+not be invading any third-party’s rights.
+SearchAct reserves the right to remove any
+of Your Content from this Website at any
+time without notice.
+
+5. Using Our Site
+You must be 18 years or older in order to
+use this website."
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+    </ScrollView>
+
+</LinearLayout>

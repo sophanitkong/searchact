@@ -1,0 +1,22 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="16dp"
+    android:height="20dp"
+    android:viewportWidth="350"
+    android:viewportHeight="420">
+    <path
+        android:fillColor="@color/colorLeather"
+        android:pathData="M12,408c-17,-17 -17,-379 0,-396 8,-8 48,-12 113,-12l101,0 62,63 62,63 0,125c0,176 7,169 -179,169 -101,0 -151,-4 -159,-12zM298,268l3,-107 -53,-3 -53,-3 -3,-58 -3,-58 -72,3 -72,3 -3,155c-1,85 0,160 3,167 3,11 33,13 127,11l123,-3 3,-107zM260,106c0,-2 -7,-9 -15,-16 -12,-10 -15,-10 -15,4 0,9 7,16 15,16 8,0 15,-2 15,-4z"
+        android:strokeColor="@color/colorLeather" />
+    <path
+        android:fillColor="@color/colorLeather"
+        android:pathData="M74,315c-11,-29 11,-36 102,-33 81,3 89,5 89,23 0,18 -8,20 -93,23 -77,2 -93,0 -98,-13z"
+        android:strokeColor="@color/colorLeather" />
+    <path
+        android:fillColor="@color/colorLeather"
+        android:pathData="M75,240c-14,-23 11,-30 101,-30 87,0 94,1 94,20 0,19 -7,20 -94,20 -53,0 -98,-4 -101,-10z"
+        android:strokeColor="@color/colorLeather" />
+    <path
+        android:fillColor="@color/colorLeather"
+        android:pathData="M81,171c-25,-16 -4,-41 33,-41 39,0 53,14 36,35 -14,17 -48,19 -69,6z"
+        android:strokeColor="@color/colorLeather" />
+</vector>
